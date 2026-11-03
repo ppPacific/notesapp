@@ -13,6 +13,7 @@ const mockPost: Post = {
 
 const Content = () => {
   const router = useRouter();
+  const { id } = useParams();
 
   return (
     <div>
@@ -22,7 +23,7 @@ const Content = () => {
       >
         {"← Back"}
       </button>
-      {/*<Post post={data} />*/}
+      <Post post={mockPost} />
     </div>
   );
 };
