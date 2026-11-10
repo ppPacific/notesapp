@@ -1,4 +1,5 @@
 import PostList from "@/modules/home/post-list";
+import CommentBtn from "@/modules/home/comment-btn";
 
 const Content = () => {
   return (
@@ -18,7 +19,7 @@ const Content = () => {
         transactions in a secure and transparent manner.
       </p>
       <div className="w-full mt-8">
-        <button>try me</button>
+        <CommentBtn />
       </div>
 
       <PostList />
